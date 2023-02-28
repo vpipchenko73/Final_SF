@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "PT Astra Sans";
+  src: url("./fonts/PT Astra Sans/PT-Astra-Sans_Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Astra Sans";
+  src: url("./fonts/PT Astra Sans/PT-Astra-Sans_Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PT Astra Sans";
+  src: url("./fonts/PT Astra Sans/PT-Astra-Sans_Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PT Astra Sans";
+  src: url("./fonts/PT Astra Sans/PT-Astra-Sans_Bold-Italic.ttf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  margin: 10px;
+  /*background-color: #ebe6d6; */
+  padding: 0;
+  font-family: "PT Astra Sans";
+  font-style: normal;
+  color: #163e6c;
+}
+
+.tip {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.foo {
+  background-color: rgba(22, 62, 108, 0.5);
+  /*font-size: 6pt;*/
+}
+#bar {
+  background-color: rgb(12, 242, 96);
+}
+.boo {
+  border: 4px solid red;
+}
+
+.table {
+  border: 3px solid #163e6c;
+  font-size: 10pt;
+  min-width:1000px;
+}
+
+.th {
+  *border: 1px solid #163e6c;
+  color: #163e6c;
+}
+
+/* для отображения названия таблицы вверху */
+.table caption {
+  caption-side: top;
+}
+
+/* для отображения значков сортировки в таблице */
+
+.table .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.table .dropup,
+.dropdown {
+  position: relative;
+}
+
+.table .dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+
+/* кнопка без окантовки */
+
+.astext {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: rgb(199, 15, 61);
+}
+
+.astext1 {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-style: italic;
+  color: #163e6c;
+
+}
+
+.astext2 {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+
+}
+
+.astext3 {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+
+}
+
+/*
+.search-label{
+    float:right;
+ } */
+
+.scrollme {
+  /* полоса прокрутки */
+  overflow-x: auto;
+}
+
+.btn-default {
+  color: #ffff;
+  background: #163e6c;
+}
+
+.page-link {
+  background-color: #163e6c;
+}
+
+
